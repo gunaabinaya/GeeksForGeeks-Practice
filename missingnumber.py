@@ -1,0 +1,10 @@
+#code
+t=int(input())
+while(t>0):
+    n=int(input())
+    l=list(map(int,input().split()))
+    sumn=n*(n+1)/2
+    sl=sum(l)
+    x=sumn-sl
+    print(int(x))
+    t=t-1
